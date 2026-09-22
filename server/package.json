@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "build": "mkdir -p dist/client netlify/functions && echo 'No compilation step required'",
     "dev": "node --watch server.js",
     "start": "node server.js"
   },
