@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node --watch index.js",
-    "start": "node index.js"
+      "build": "npm start",
+      "start": "node index.js"
 },
   "dependencies": {
     "cors": "^2.8.5",
