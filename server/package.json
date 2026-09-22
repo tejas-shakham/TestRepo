@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch server.js",
-    "start": "node server.js"
+    "start": "node start"
   },
   "dependencies": {
     "cors": "^2.8.5",
